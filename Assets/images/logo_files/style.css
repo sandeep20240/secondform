@@ -1,0 +1,40 @@
+#jsonForm{
+    background:#e6e6e6;
+}
+.mainDiv{
+    padding:8rem 2rem 3rem;
+}
+.logo{
+    position:fixed;
+    width:100%;
+    background:#bbb;
+    /* background-image: linear-gradient(210deg, #3A31A1 0%, #D01342 100%); */
+    padding:2rem 0 1rem;
+}
+label{
+    margin-top: 2rem;
+    margin-bottom:8px;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn{
+    background: #000;
+    color:#fff;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 150px;
+    width: 100%;
+}
+.btn:hover{color:#fff;}
+input, select{
+    font-family: 'Montserrat', sans-serif;
+    border:1px solid #bbb !important;
+    box-shadow: none !important;
+}
+select{
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 6px;
+}
+.toast, .toast-header{background:#bbb !important;color:#000 !important;}
+.btn-close{color:#fff !important; border:none;box-shadow:none !important;outline:none;}
